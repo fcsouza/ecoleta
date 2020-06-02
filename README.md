@@ -35,7 +35,7 @@ Ecoleta é uma plataforma dedicada a captação de resíduos para empresas que c
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=650px src=".github\capa.svg" alt="Preview logo"></a>
+ <img width=650px src=".github\ecoleta.jpeg" alt="Preview logo"></a>
 </p>
 
 
