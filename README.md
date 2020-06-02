@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
+    <img alt="fabricio" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
     <p>Ecoleta</p>
 </h1>
 
@@ -19,7 +19,7 @@
 
 ## 📝 Conteúdo
 <p align="center">
-<a href="#about">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#fabricio">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#getting_started">Iniciando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#installing">Instalando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 <a href="#built_using">Tecnologias Utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -28,7 +28,7 @@
 </p>
 
 
-## 🧐 Sobre <a name = "about"></a>
+## 🧐 Sobre <a name = "fabricio"></a>
 
 Ecoleta é uma plataforma dedicada a captação de resíduos para empresas que conecta pessoas dispostas a realizar a entraga. A aplicação web é dedicada as Empresas e permite o seu cadastro e a inserção de pontos de coleta. Já a aplicação mobile é destinada aos usuários , os usuários que poderão ver a lista de lugares para depositar seus resíduos. Por meio da aplicação mobile é possível entrar em contato diretamente com a Empresa por e-mail ou Whatsapp.
 
