@@ -27,6 +27,23 @@ class PointsController {
     return response.json(serializedPoints);
   }
 
+  async all(request: Request, response: Response) {
+
+    const points = await knex('points')
+      .join('point_items', 'points.id', '=', 'point_items.point_id')
+      .distinct()
+      .select('points.*');
+
+    const serializedPoints = points.map((point) => {
+      return {
+        ...point,
+        image_url: `http://localhost:3333/uploads/${point.image}`,
+      };
+    });
+
+    return response.json(serializedPoints);
+  }
+
   async show(request: Request, response: Response) {
     const { id } = request.params;
 

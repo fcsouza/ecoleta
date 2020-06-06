@@ -16,6 +16,7 @@ const itemsController = new ItemsController();
 routes.get('/items', itemsController.index);
 
 routes.get('/points', pointsController.index);
+routes.get('/list-points', pointsController.all);
 routes.get('/points/:id', pointsController.show);
 
 routes.post(
@@ -26,7 +27,7 @@ routes.post(
       body: Joi.object().keys({
         name: Joi.string().required(),
         email: Joi.string().required().email(),
-        whatsapp: Joi.number().required().max(10),
+        whatsapp: Joi.number().required(),
         latitude: Joi.number().required(),
         longitude: Joi.number().required(),
         city: Joi.string().required(),
