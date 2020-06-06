@@ -2,10 +2,10 @@ import { Request, Response } from 'express';
 import knex from '../database/connection';
 
 class ItemsController {
-  async index(req: Request, res: Response) {
+  async index(request: Request, response: Response) {
     const items = await knex('items').select('*');
 
-    const serialiezItems = items.map(item => {
+    const serializedItems = items.map((item) => {
       return {
         id: item.id,
         title: item.title,
@@ -13,7 +13,7 @@ class ItemsController {
       };
     });
 
-    return res.json(serialiezItems);
+    return response.json(serializedItems);
   }
 }
 
